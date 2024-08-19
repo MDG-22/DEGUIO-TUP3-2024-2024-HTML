@@ -1,0 +1,132 @@
+body{
+    background-color: #E1DDD1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 50px;
+    overflow-y: scroll;
+}
+
+div{
+    font-family: 'Cormorant Garamont';
+}
+
+#padre{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h1{
+    text-align: center;
+}
+
+#izq{
+    width: 35%;
+    float: left;
+    display: block;
+    background-color: #b8c7dd;
+
+}
+
+#der{
+    position: relative;
+    width: 65%;
+    background-color: white;
+}
+
+#cont-img{
+    margin-top: 13%;
+}
+
+img{
+    max-width: 100%;
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+
+hr{
+    width: 80%;
+}
+
+.titulo{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 26px;
+    text-align: center;
+}
+
+#descripcion{
+    font-family: 'Cormorant Garamont';
+    margin-left: 1.85em;
+    margin-right: 1.85em;
+}
+
+.list-intereses{
+    margin-left: 8%;
+}
+
+.list-intereses li{
+    list-style-image: url(book3.png);
+}
+
+#ig{
+    list-style-image: url(ig.png);
+
+}
+
+#fb{
+    list-style-image: url(fb.png);
+}
+
+#lkin{
+    list-style-image: url(lkin.png);
+}
+
+.redes{
+    font-family: 'Cormorant Garamont';
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+.redes a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.info{
+    width: 90%;
+    padding-left: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 1%;
+}
+
+.contacto{
+    text-align: center;
+    width: auto;
+}
+
+fieldset{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#msgSent{
+    background-color: #88abc9;
+    height: 35px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+}
